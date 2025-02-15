@@ -1,0 +1,16 @@
+
+/* !important > Inline CSS > Internal stylesheet > External stylesheet */
+
+
+h1 {
+    /* CSS properties are key-value pairs */
+    color: red;       /* not "red" */
+}
+
+p {
+    color: blue !important;      /* not "blue" */
+}
+
+p {
+    color: rgb(0,100,100)
+}
