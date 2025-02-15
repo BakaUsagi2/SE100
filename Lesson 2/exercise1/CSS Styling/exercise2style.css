@@ -1,0 +1,34 @@
+
+/* Inline [1000] > ID [100] > Class [10] > Elements [1] */
+
+
+h1 {
+        color: #0066ff;
+}
+
+.company-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.stock-details {
+    margin-top: 20px;
+}
+
+
+/* Use descendant combinator to style all paragraphs within stock details */
+.stock-details p {
+    font-style: italic;
+}
+
+
+/* Style specific paragraphs within stock details using the descendant combinator */
+.current-price p {
+    color: green;
+}
+
+/* Style specific paragraphs within stock details using the descendant combinator */
+  .price-change p{
+    color: red;
+}
