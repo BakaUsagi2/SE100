@@ -23,4 +23,4 @@ console.log(`The three lowest prices are ${data[0]}, ${data[1]} and ${data[2]}`)
 //}
 //console.log(data)
 
-// for some reason ^ this code cannot accurately find the 3 lowest values of the amdPrices array
+// for some reason ^ this code cannot accurately find the 3 lowest values of the amdPrices array. May I know why?
