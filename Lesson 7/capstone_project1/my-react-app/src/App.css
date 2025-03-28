@@ -1,0 +1,43 @@
+.financeDashboardContent {
+  position: relative;
+  padding: 3rem;
+  align-items: center;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  margin: 10px;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: left;
+  flex-flow: row;
+  margin: 10px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.stockList {
+  display: flex
+}
